@@ -1,14 +1,4 @@
-body{
-font-family: "Jura", sans-serif;
 
-.jura-<uniquifier> {
-  font-family: "Jura", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <300>;
-  font-style: normal;
-}
-
-}
 h1{
      
        color: blue;
@@ -17,7 +7,13 @@ h3{
    
        color: black;
 }
-p{
-       
+p{ 
+   .jura-<uniquifier> {
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <300>;
+  font-style: normal;
+}
+    
     line-height: 1.5;
 }
