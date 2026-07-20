@@ -1,21 +1,36 @@
-   .jura-<uniquifier> {
-  font-family: "Jura", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <300>;
+.container {
+   width: 100vw;
+    height: 100vh;
+   padding-left:20px;
+    overflow-y: scroll;          /* 세로 스크롤 활성화 */
+    scroll-snap-type: y mandatory; /* 💡 세로 방향으로 자석 스크롤 강제 적용 */
+    scroll-behavior: smooth;      /* 화면 밖으로 나가는 이미지 잘라내기 */
+}
+
+body{
+  font-family: "DM Mono", monospace;
+  font-weight: 400;
   font-style: normal;
+  line-height: 1.5;
+   font-size: 15px;
+}
+p{
+  font-family: "DM Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5;
+  width: 100%;
+   font-size: 15px;
 }
 
-p{ 
-  font-family: "Jura", sans-serif;
-    
-    line-height: 1.5;
-}
-h1{
-     
-       color: blue;
-}
-h3{
-   
-       color: black;
+h2{
+  font-family: "DM Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.7;
 }
 
+p, text content{
+  max-width: 650px;
+  width: 100%; 
+}
